@@ -1,7 +1,5 @@
-import express, { Request, Response, request, response } from "express";
-import prisma from "./utils/prisma";
+import express from "express";
 import userRouter from "./routes/userRoute";
-import responseHandler from "./utils/responseHandler";
 import notFoundHandler from "./utils/notFoundHandler";
 import errorHandler from "./utils/errorHandler";
 
